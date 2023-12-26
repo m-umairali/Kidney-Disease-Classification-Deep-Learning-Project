@@ -1,6 +1,6 @@
 # Kidney-Disease-Classification-Deep-Learning-Project
 
-##Folder Structure:
+## Folder Structure:
 
 - .github
   - workflows
