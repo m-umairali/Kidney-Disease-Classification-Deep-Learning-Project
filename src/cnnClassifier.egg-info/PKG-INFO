@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/m-umairali/Kidney-Disease-Classification-Deep-Learning-Project
+Author: m-umairali
+Author-email: mumairali8899@gmail.com
+Project-URL: Bug Tracker, https://github.com/m-umairali/Kidney-Disease-Classification-Deep-Learning-Project/issues
+
+# Kidney-Disease-Classification-Deep-Learning-Project
+
+## Folder Structure:
+
+- .github
+  - workflows
+    - .gitkeep
+- src
+  - cnnClassifier
+    - __init__.py
+    - components
+      - __init__.py
+    - utils
+      - __init__.py
+    - config
+      - __init__.py
+      - configuration.py
+    - pipeline
+      - __init__.py
+    - entity
+      - __init__.py
+    - constants
+      - __init__.py
+- config
+  - config.yaml
+- research
+  - trials.ipynb
+- templates
+  - index.html
+- dvc.yaml
+- params.yaml
+- requirements.txt
+- setup.py
