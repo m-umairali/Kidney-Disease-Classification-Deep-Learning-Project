@@ -82,3 +82,161 @@ x==========x]
 [2023-12-26 15:19:36,394: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2023-12-31 22:40:50,934: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-31 22:40:50,969: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-31 22:40:50,975: INFO: common: created directory at: artifacts]
+[2023-12-31 22:42:12,181: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-31 22:42:12,192: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-31 22:42:12,200: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-31 22:42:12,202: INFO: common: created directory at: artifacts]
+[2023-12-31 22:42:12,204: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-31 22:42:12,208: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-31 22:43:43,328: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-31 22:43:45,190: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-31 22:43:45,192: INFO: main: *******************]
+[2023-12-31 22:43:45,193: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-31 22:43:45,202: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-31 22:43:45,209: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-31 22:43:45,217: INFO: common: created directory at: artifacts]
+[2023-12-31 22:43:45,220: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-31 22:43:46,826: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-31 22:43:47,465: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-31 22:43:47,467: INFO: main: *******************]
+[2023-12-31 22:43:47,467: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-31 22:43:47,472: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-31 22:43:47,477: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-31 22:43:47,480: INFO: common: created directory at: artifacts]
+[2023-12-31 22:43:47,482: INFO: common: created directory at: artifacts\training]
+[2023-12-31 22:46:51,247: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-31 22:47:23,052: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-31 22:47:23,061: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-31 22:47:23,064: INFO: common: created directory at: artifacts]
+[2023-12-31 22:48:38,679: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-31 22:48:38,689: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-31 22:48:38,693: INFO: common: created directory at: artifacts]
+[2023-12-31 22:49:42,755: INFO: common: json file saved at: scores.json]
+[2023-12-31 22:49:49,610: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-31 22:49:51,286: INFO: builder_impl: Assets written to: C:\Users\umair\AppData\Local\Temp\tmp_89vitof\model\data\model\assets]
+[2024-01-01 00:41:07,785: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-01 00:41:07,792: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-01 00:41:07,801: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-01 00:41:07,805: INFO: common: created directory at: artifacts]
+[2024-01-01 00:41:07,807: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-01 00:41:07,811: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-01 00:42:48,274: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-01 00:42:53,372: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-01 00:42:53,398: INFO: main: *******************]
+[2024-01-01 00:42:53,429: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-01-01 00:42:53,540: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-01 00:42:53,636: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-01 00:42:53,749: INFO: common: created directory at: artifacts]
+[2024-01-01 00:42:53,877: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-01 00:42:57,616: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-01 00:42:58,753: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-01-01 00:42:58,755: INFO: main: *******************]
+[2024-01-01 00:42:58,756: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-01-01 00:42:58,769: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-01 00:42:58,788: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-01 00:42:58,801: INFO: common: created directory at: artifacts]
+[2024-01-01 00:42:58,803: INFO: common: created directory at: artifacts\training]
+[2024-01-01 00:43:01,383: ERROR: main: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\Chest-CT-Scan-data']
+Traceback (most recent call last):
+  File "main.py", line 37, in <module>
+    model_trainer.main()
+  File "c:\users\umair\downloads\mlops\e2e-mlops\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_03_model_training.py", line 20, in main
+    training.train_valid_generator()
+  File "c:\users\umair\downloads\mlops\e2e-mlops\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_training.py", line 37, in train_valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+  File "C:\Users\umair\miniconda3\envs\kidney\lib\site-packages\keras\preprocessing\image.py", line 1648, in flow_from_directory
+    return DirectoryIterator(
+  File "C:\Users\umair\miniconda3\envs\kidney\lib\site-packages\keras\preprocessing\image.py", line 563, in __init__
+    for subdir in sorted(os.listdir(directory)):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\Chest-CT-Scan-data'
+[2024-01-01 00:46:56,395: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-01 00:46:56,405: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-01 00:46:56,411: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-01 00:46:56,415: INFO: common: created directory at: artifacts]
+[2024-01-01 00:46:56,416: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-01 00:46:56,417: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-01 00:48:47,660: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-01 00:48:49,050: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-01 00:48:49,053: INFO: main: *******************]
+[2024-01-01 00:48:49,054: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-01-01 00:48:49,059: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-01 00:48:49,066: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-01 00:48:49,069: INFO: common: created directory at: artifacts]
+[2024-01-01 00:48:49,070: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-01 00:48:50,248: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-01 00:48:51,125: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-01-01 00:48:51,127: INFO: main: *******************]
+[2024-01-01 00:48:51,127: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-01-01 00:48:51,132: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-01 00:48:51,137: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-01 00:48:51,139: INFO: common: created directory at: artifacts]
+[2024-01-01 00:48:51,140: INFO: common: created directory at: artifacts\training]
+[2024-01-01 00:48:52,022: ERROR: main: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\Chest-CT-Scan-data']
+Traceback (most recent call last):
+  File "main.py", line 37, in <module>
+    model_trainer.main()
+  File "c:\users\umair\downloads\mlops\e2e-mlops\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_03_model_training.py", line 20, in main
+    training.train_valid_generator()
+  File "c:\users\umair\downloads\mlops\e2e-mlops\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_training.py", line 37, in train_valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+  File "C:\Users\umair\miniconda3\envs\kidney\lib\site-packages\keras\preprocessing\image.py", line 1648, in flow_from_directory
+    return DirectoryIterator(
+  File "C:\Users\umair\miniconda3\envs\kidney\lib\site-packages\keras\preprocessing\image.py", line 563, in __init__
+    for subdir in sorted(os.listdir(directory)):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\Chest-CT-Scan-data'
+[2024-01-01 00:54:00,505: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-01 00:54:00,512: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-01 00:54:00,519: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-01 00:54:00,521: INFO: common: created directory at: artifacts]
+[2024-01-01 00:54:00,522: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-01 00:54:00,524: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-01 00:56:33,776: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-01 00:56:35,376: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-01 00:56:35,380: INFO: main: *******************]
+[2024-01-01 00:56:35,382: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-01-01 00:56:35,396: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-01 00:56:35,407: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-01 00:56:35,409: INFO: common: created directory at: artifacts]
+[2024-01-01 00:56:35,410: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-01 00:56:36,494: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-01 00:56:37,210: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-01-01 00:56:37,211: INFO: main: *******************]
+[2024-01-01 00:56:37,212: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-01-01 00:56:37,222: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-01 00:56:37,230: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-01 00:56:37,233: INFO: common: created directory at: artifacts]
+[2024-01-01 00:56:37,236: INFO: common: created directory at: artifacts\training]
+[2024-01-01 00:56:38,059: ERROR: main: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\Chest-CT-Scan-data']
+Traceback (most recent call last):
+  File "main.py", line 37, in <module>
+    model_trainer.main()
+  File "c:\users\umair\downloads\mlops\e2e-mlops\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_03_model_training.py", line 20, in main
+    training.train_valid_generator()
+  File "c:\users\umair\downloads\mlops\e2e-mlops\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_training.py", line 37, in train_valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+  File "C:\Users\umair\miniconda3\envs\kidney\lib\site-packages\keras\preprocessing\image.py", line 1648, in flow_from_directory
+    return DirectoryIterator(
+  File "C:\Users\umair\miniconda3\envs\kidney\lib\site-packages\keras\preprocessing\image.py", line 563, in __init__
+    for subdir in sorted(os.listdir(directory)):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\Chest-CT-Scan-data'
