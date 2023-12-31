@@ -31,3 +31,14 @@
 - params.yaml
 - requirements.txt
 - setup.py
+
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/m-umairali/Kidney-Disease-Classification-Deep-Learning-Project.mlflow
+
+export MLFLOW_TRACKING_USERNAME=m-umairali 
+
+export MLFLOW_TRACKING_PASSWORD=c3ee1574ce8fdd819d634b677c924d61bed1fa9b
+
+```
